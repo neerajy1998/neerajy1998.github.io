@@ -69,6 +69,11 @@ body {
 .hero-card-item:last-of-type { border-bottom: none; }
 .hero-card-item span { color: var(--muted); }
 .hero-card-item strong { font-weight: 600; text-align: right; }
+.hero-card-social { margin-top: 10px; font-size: 13px; }
+.hero-card-social a { color: var(--accent); text-decoration: none; }
+.hero-card-social a:hover { text-decoration: underline; }
+.hero-meta a { color: var(--accent); text-decoration: none; }
+.hero-meta a:hover { text-decoration: underline; }
 .hero-card-mail {
   display: block; margin-top: 18px; font-family: var(--mono); font-size: 13px;
   color: var(--accent); text-decoration: none; word-break: break-all;
